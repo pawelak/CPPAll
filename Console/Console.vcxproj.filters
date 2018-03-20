@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ExercisesAda">
+      <UniqueIdentifier>{23165dc6-9bca-4194-a44d-cf59d384d317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestsAda">
+      <UniqueIdentifier>{a0e1c78c-3bb6-4a07-9345-fbe3b6d10d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TestsAda">
+      <UniqueIdentifier>{e865379c-62af-4fb7-90e8-81477346d76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExercisesAda">
+      <UniqueIdentifier>{97723121-05e8-494e-ac35-fae736b446f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoolTable.h">
+      <Filter>Header Files\TestsAda</Filter>
+    </ClInclude>
+    <ClInclude Include="SitoPrimaryNymbersMyIdea.h">
+      <Filter>Header Files\ExercisesAda</Filter>
+    </ClInclude>
+    <ClInclude Include="SitoPrimaryNymbersAdasIdea.h">
+      <Filter>Header Files\ExercisesAda</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolTable.cpp">
+      <Filter>Source Files\TestsAda</Filter>
+    </ClCompile>
+    <ClCompile Include="SitoPrimaryNymbersMyIdea.cpp">
+      <Filter>Source Files\ExercisesAda</Filter>
+    </ClCompile>
+    <ClCompile Include="SitoPrimaryNymbersAdasIdea.cpp">
+      <Filter>Source Files\ExercisesAda</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
