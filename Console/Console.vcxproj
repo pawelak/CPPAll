@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BoolTable.h" />
+    <ClInclude Include="RevertPrimaryNumbers.h" />
     <ClInclude Include="SitoPrimaryNymbersAdasIdea.h" />
     <ClInclude Include="SitoPrimaryNymbersMyIdea.h" />
     <ClInclude Include="stdafx.h" />
@@ -156,6 +157,7 @@
   <ItemGroup>
     <ClCompile Include="BoolTable.cpp" />
     <ClCompile Include="Console.cpp" />
+    <ClCompile Include="RevertPrimaryNumbers.cpp" />
     <ClCompile Include="SitoPrimaryNymbersAdasIdea.cpp" />
     <ClCompile Include="SitoPrimaryNymbersMyIdea.cpp" />
     <ClCompile Include="stdafx.cpp">
