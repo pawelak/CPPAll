@@ -45,6 +45,9 @@
     <ClInclude Include="RevertPrimaryNumbers.h">
       <Filter>Header Files\ExercisesAda</Filter>
     </ClInclude>
+    <ClInclude Include="PrimaryNumbersCompartments.h">
+      <Filter>Header Files\ExercisesAda</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -63,6 +66,9 @@
       <Filter>Source Files\ExercisesAda</Filter>
     </ClCompile>
     <ClCompile Include="RevertPrimaryNumbers.cpp">
+      <Filter>Source Files\ExercisesAda</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimaryNumbersCompartments.cpp">
       <Filter>Source Files\ExercisesAda</Filter>
     </ClCompile>
   </ItemGroup>
