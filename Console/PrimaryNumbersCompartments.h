@@ -1,4 +1,6 @@
 #pragma once
+#include <vector>
+
 class PrimaryNumbersCompartments
 {
 public:
@@ -7,11 +9,16 @@ public:
 
 	int OneCompartment(int from, int to, int * tab);
 
-	void Run();
-
 	void PrepereTab(int * tab);
 
 	void ClearTab(int * tab);
+
+	void Run();
+
+
+
+
+
 
 
 
