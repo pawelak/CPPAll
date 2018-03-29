@@ -12,38 +12,37 @@ PrimaryNumbersCompartments::~PrimaryNumbersCompartments()
 {
 }
 
-int PrimaryNumbersCompartments::OneCompartment(int from, int to, int *tab)
+int PrimaryNumbersCompartments::OneCompartment(int from, int to, vector<int> vec)
 {
 	int quantity = 0;
 
 	for (int i = from; i <= to; ++i)
 	{
-		if (tab[i] != 0)quantity++;
+		if (vec[i] != 0)quantity++;
 	}
 	return quantity;
 }
 
-void PrimaryNumbersCompartments::PrepereTab(int *tab)
+void PrimaryNumbersCompartments::PrepereTab(vector<int> &vec)
 {
 	for (int i = 0; i < 100; ++i)
 	{
-		if (tab[i] != 0)
+		if (vec[i] != 0)
 		{
-			for (int j = (2 * i); j < 10000 ; j += i)
-				tab[j] = 0;
+			for (int j = (2 * i); j < vec.size() ; j += i)
+				vec[j] = 0;
 		}
 	}
 	
 }
 
-void PrimaryNumbersCompartments::ClearTab(int *tab)
+void PrimaryNumbersCompartments::ClearTab(vector<int> &vec)
 {
-
 	for (int i = 0; i < 10000; ++i)
 	{
-		tab[i] = i;
+		vec.push_back(i);
 	}
-	tab[1] = 0;
+	vec[1] = 0;
 }
 
 
@@ -54,16 +53,16 @@ void PrimaryNumbersCompartments::Run()
 
 	cout << "ile przedzialow: ";
 	cin >> amount;
-	int tab[100000];
+	vector<int> vec;
 
-	ClearTab(tab);
-	PrepereTab(tab);
+	ClearTab(vec);
+	PrepereTab(vec);
 	
 	for (int i = 0; i < amount; ++i)
 	{
 		int from, to;
 		cin >> from >> to;
-		numbers.push_back(OneCompartment(from, to, tab));
+		numbers.push_back(OneCompartment(from, to, vec));
 	}
 
 	for (int i = 0; i < numbers.size(); ++i)
