@@ -6,5 +6,6 @@ class MyClockMesure
 public:
 	MyClockMesure();
 	~MyClockMesure();
+	void MesureTime();
 };
 

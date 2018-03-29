@@ -12,6 +12,18 @@ InvertModAda::~InvertModAda()
 {
 }
 
+int InvertModAda::ExtractAlg(int a, int b)
+{
+	int pomoc;
+	for (int i = 0; i <= b - 1; i++)
+	{
+		pomoc = (i*a) % b;
+		if (pomoc == 1)
+		{
+			return i;
+		}
+	}
+}
 
 void InvertModAda::Run(int n)
 {
