@@ -25,7 +25,7 @@ int PrimaryNumbersCompartments::OneCompartment(int from, int to, vector<int> vec
 
 void PrimaryNumbersCompartments::PrepereTab(vector<int> &vec)
 {
-	for (int i = 0; i < 100; ++i)
+	for (int i = 0; i < (int)sqrt(vec.size()); ++i)
 	{
 		if (vec[i] != 0)
 		{
@@ -38,7 +38,8 @@ void PrimaryNumbersCompartments::PrepereTab(vector<int> &vec)
 
 void PrimaryNumbersCompartments::ClearTab(vector<int> &vec)
 {
-	for (int i = 0; i < 10000; ++i)
+	int max = 100000;
+	for (int i = 0; i < max; ++i)
 	{
 		vec.push_back(i);
 	}
@@ -69,5 +70,18 @@ void PrimaryNumbersCompartments::Run()
 	{
 		cout << numbers[i] << endl;
 	}
+}
+
+
+void PrimaryNumbersCompartments::RunOneCompartment()
+{
+	vector<int> vec;
+	int from, to;
+	cin >> from >> to;
+
+	ClearTab(vec);
+	PrepereTab(vec);
+	cout << OneCompartment(from, to, vec);
+
 }
 
