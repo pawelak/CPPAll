@@ -150,6 +150,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BoolTable.h" />
+    <ClInclude Include="InvertMod.h" />
+    <ClInclude Include="InvertModAda.h" />
     <ClInclude Include="MyClockMesure.h" />
     <ClInclude Include="PrimaryNumbersCompartments.h" />
     <ClInclude Include="RevertPrimaryNumbers.h" />
@@ -161,6 +163,8 @@
   <ItemGroup>
     <ClCompile Include="BoolTable.cpp" />
     <ClCompile Include="Console.cpp" />
+    <ClCompile Include="InvertMod.cpp" />
+    <ClCompile Include="InvertModAda.cpp" />
     <ClCompile Include="MyClockMesure.cpp" />
     <ClCompile Include="PrimaryNumbersCompartments.cpp" />
     <ClCompile Include="RevertPrimaryNumbers.cpp" />

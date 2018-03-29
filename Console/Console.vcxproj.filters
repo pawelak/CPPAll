@@ -51,6 +51,12 @@
     <ClInclude Include="MyClockMesure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="InvertModAda.h">
+      <Filter>Header Files\ExercisesAda</Filter>
+    </ClInclude>
+    <ClInclude Include="InvertMod.h">
+      <Filter>Header Files\ExercisesAda</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -76,6 +82,12 @@
     </ClCompile>
     <ClCompile Include="MyClockMesure.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertModAda.cpp">
+      <Filter>Source Files\ExercisesAda</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertMod.cpp">
+      <Filter>Source Files\ExercisesAda</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
