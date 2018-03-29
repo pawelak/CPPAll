@@ -3,6 +3,10 @@
 #include <chrono>
 #include "InvertMod.h"
 #include "InvertModAda.h"
+#include <vector>
+#include "LeastCommonMultiple.h"
+#include "LeastCommonMultipleAda.h"
+#include <numeric>
 
 
 MyClockMesure::MyClockMesure()
@@ -18,12 +22,18 @@ MyClockMesure::~MyClockMesure()
 
 void MyClockMesure::MesureTime()
 {
-	InvertMod invert_mod;
-	InvertModAda invert_mod_ada;
+	long long int w1, w2;
+	vector<long long int> vec = { 5, 7, 9, 12 , 17, 19, 21, 83};
+
+
+	LeastCommonMultiple least_common_multiple;
+	LeastCommonMultipleAda least_common_multiple_ada;
+
 	auto start = std::chrono::high_resolution_clock::now();
 //--------
 
-	auto w1 = invert_mod.InvMod(123, 12377);
+
+	w1 = least_common_multiple.Run(vec);
 
 //--------
 	auto finish = std::chrono::high_resolution_clock::now();
@@ -34,7 +44,7 @@ void MyClockMesure::MesureTime()
 	start = std::chrono::high_resolution_clock::now();
 //-------
 
-	auto w2 = invert_mod_ada.ExtractAlg(123, 12377);
+	w2 = least_common_multiple_ada.NWW_wielu(vec);
 
 //--------------
 	finish = std::chrono::high_resolution_clock::now();

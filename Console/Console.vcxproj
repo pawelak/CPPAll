@@ -153,8 +153,11 @@
     <ClInclude Include="BoolTable.h" />
     <ClInclude Include="InvertMod.h" />
     <ClInclude Include="InvertModAda.h" />
+    <ClInclude Include="LeastCommonMultiple.h" />
+    <ClInclude Include="LeastCommonMultipleAda.h" />
     <ClInclude Include="MyClockMesure.h" />
     <ClInclude Include="PrimaryNumbersCompartments.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="RevertPrimaryNumbers.h" />
     <ClInclude Include="SitoPrimaryNymbersAdasIdea.h" />
     <ClInclude Include="SitoPrimaryNymbersMyIdea.h" />
@@ -166,6 +169,8 @@
     <ClCompile Include="Console.cpp" />
     <ClCompile Include="InvertMod.cpp" />
     <ClCompile Include="InvertModAda.cpp" />
+    <ClCompile Include="LeastCommonMultiple.cpp" />
+    <ClCompile Include="LeastCommonMultipleAda.cpp" />
     <ClCompile Include="MyClockMesure.cpp" />
     <ClCompile Include="PrimaryNumbersCompartments.cpp" />
     <ClCompile Include="RevertPrimaryNumbers.cpp" />
@@ -177,6 +182,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Console.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
