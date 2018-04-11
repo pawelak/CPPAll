@@ -151,10 +151,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BoolTable.h" />
+    <ClInclude Include="InsertEx1.h" />
     <ClInclude Include="InvertMod.h" />
     <ClInclude Include="InvertModAda.h" />
     <ClInclude Include="LeastCommonMultiple.h" />
     <ClInclude Include="LeastCommonMultipleAda.h" />
+    <ClInclude Include="LetterChecking.h" />
+    <ClInclude Include="letterCheckingAda.h" />
     <ClInclude Include="MyClockMesure.h" />
     <ClInclude Include="PrimaryNumbersCompartments.h" />
     <ClInclude Include="resource.h" />
@@ -167,10 +170,13 @@
   <ItemGroup>
     <ClCompile Include="BoolTable.cpp" />
     <ClCompile Include="Console.cpp" />
+    <ClCompile Include="InsertEx1.cpp" />
     <ClCompile Include="InvertMod.cpp" />
     <ClCompile Include="InvertModAda.cpp" />
     <ClCompile Include="LeastCommonMultiple.cpp" />
     <ClCompile Include="LeastCommonMultipleAda.cpp" />
+    <ClCompile Include="LetterChecking.cpp" />
+    <ClCompile Include="letterCheckingAda.cpp" />
     <ClCompile Include="MyClockMesure.cpp" />
     <ClCompile Include="PrimaryNumbersCompartments.cpp" />
     <ClCompile Include="RevertPrimaryNumbers.cpp" />

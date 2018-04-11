@@ -25,6 +25,9 @@
     <Filter Include="Header Files\ExercisesAda">
       <UniqueIdentifier>{97723121-05e8-494e-ac35-fae736b446f5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\MyExercises">
+      <UniqueIdentifier>{6148ffdb-fd7a-4564-b149-e9d7461d9716}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -66,6 +69,15 @@
     <ClInclude Include="LeastCommonMultiple.h">
       <Filter>Header Files\ExercisesAda</Filter>
     </ClInclude>
+    <ClInclude Include="LetterChecking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="letterCheckingAda.h">
+      <Filter>Header Files\ExercisesAda</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertEx1.h">
+      <Filter>Header Files\ExercisesAda</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -102,6 +114,15 @@
       <Filter>Source Files\ExercisesAda</Filter>
     </ClCompile>
     <ClCompile Include="LeastCommonMultiple.cpp">
+      <Filter>Source Files\ExercisesAda</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertEx1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="letterCheckingAda.cpp">
+      <Filter>Source Files\ExercisesAda</Filter>
+    </ClCompile>
+    <ClCompile Include="LetterChecking.cpp">
       <Filter>Source Files\ExercisesAda</Filter>
     </ClCompile>
   </ItemGroup>
